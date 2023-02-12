@@ -1,0 +1,505 @@
+year,month,adm0_name,adminstrata,rCSI Mean
+2018,1,Yemen,Yemen,21.30431
+2018,1,Yemen,Abyan,18.18285
+2018,1,Yemen,Ad Dali,21.37487
+2018,1,Yemen,Aden,14.97399
+2018,1,Yemen,Al Bayda,20.5893
+2018,1,Yemen,Al Hudaydah,22.50738
+2018,1,Yemen,Al Jawf,22.81929
+2018,1,Yemen,Al Maharah,9.5939903
+2018,1,Yemen,Al Mahwit,23.53997
+2018,1,Yemen,Amran,19.53862
+2018,1,Yemen,Dhamar,25.16564
+2018,1,Yemen,Hadramaut,13.94319
+2018,1,Yemen,Hajjah,24.96184
+2018,1,Yemen,Ibb,19.55084
+2018,1,Yemen,Lahj,14.68397
+2018,1,Yemen,Marib,17.9006
+2018,1,Yemen,Raymah,20.619949
+2018,1,Yemen,Sa'dah,22.06815
+2018,1,Yemen,Sana'a,21.098499
+2018,1,Yemen,Sana'a City,27.28244
+2018,1,Yemen,Shabwah,14.83883
+2018,1,Yemen,Taizz,20.07822
+2018,1,Yemen,Aden,16.96636
+2018,1,Yemen,Aljanad,19.823481
+2018,1,Yemen,Azal,22.585649
+2018,1,Yemen,Hadramaut,13.95279
+2018,1,Yemen,Sana'a City,27.28244
+2018,1,Yemen,Sheba,20.798719
+2018,1,Yemen,Tahamh,23.18671
+2018,2,Yemen,Yemen,20.809521
+2018,2,Yemen,Abyan,15.04192
+2018,2,Yemen,Ad Dali,19.253691
+2018,2,Yemen,Aden,16.040819
+2018,2,Yemen,Al Bayda,21.37878
+2018,2,Yemen,Al Hudaydah,19.9886
+2018,2,Yemen,Al Jawf,20.947321
+2018,2,Yemen,Al Maharah,8.6114902
+2018,2,Yemen,Al Mahwit,24.331881
+2018,2,Yemen,Amran,17.88501
+2018,2,Yemen,Dhamar,24.954189
+2018,2,Yemen,Hadramaut,13.60302
+2018,2,Yemen,Hajjah,25.40279
+2018,2,Yemen,Ibb,22.638889
+2018,2,Yemen,Lahj,15.85854
+2018,2,Yemen,Marib,16.67433
+2018,2,Yemen,Raymah,25.356911
+2018,2,Yemen,Sa'dah,17.608419
+2018,2,Yemen,Sana'a,22.90984
+2018,2,Yemen,Sana'a City,24.74781
+2018,2,Yemen,Shabwah,14.1586
+2018,2,Yemen,Taizz,18.60498
+2018,2,Yemen,Aden,16.527161
+2018,2,Yemen,Aljanad,20.53253
+2018,2,Yemen,Azal,22.12998
+2018,2,Yemen,Hadramaut,13.44656
+2018,2,Yemen,Sana'a City,24.74781
+2018,2,Yemen,Sheba,20.276899
+2018,2,Yemen,Tahamh,22.621361
+2018,3,Yemen,Yemen,21.36025
+2018,4,Yemen,Yemen,20.56282
+2018,3,Yemen,Abyan,16.453609
+2018,3,Yemen,Ad Dali,19.30302
+2018,3,Yemen,Aden,22.08539
+2018,3,Yemen,Al Bayda,16.350861
+2018,3,Yemen,Al Hudaydah,20.380199
+2018,3,Yemen,Al Jawf,19.194241
+2018,3,Yemen,Al Maharah,12.76297
+2018,3,Yemen,Al Mahwit,25.34746
+2018,3,Yemen,Amran,18.70402
+2018,3,Yemen,Dhamar,25.45579
+2018,3,Yemen,Hadramaut,11.2403
+2018,3,Yemen,Hajjah,27.650709
+2018,3,Yemen,Ibb,19.67701
+2018,4,Yemen,Abyan,16.914989
+2018,4,Yemen,Ad Dali,16.854549
+2018,3,Yemen,Lahj,13.59938
+2018,3,Yemen,Marib,19.736151
+2018,4,Yemen,Aden,18.615959
+2018,4,Yemen,Al Bayda,20.519911
+2018,3,Yemen,Raymah,26.81675
+2018,4,Yemen,Al Hudaydah,21.55522
+2018,3,Yemen,Sa'dah,21.680269
+2018,4,Yemen,Al Jawf,19.44504
+2018,3,Yemen,Sana'a,23.804131
+2018,4,Yemen,Al Maharah,8.6369896
+2018,3,Yemen,Sana'a City,28.045851
+2018,4,Yemen,Al Mahwit,24.39974
+2018,3,Yemen,Shabwah,13.66911
+2018,3,Yemen,Taizz,19.54796
+2018,4,Yemen,Amran,20.10923
+2018,4,Yemen,Dhamar,22.62641
+2018,4,Yemen,Hadramaut,14.29786
+2018,4,Yemen,Hajjah,24.54632
+2018,4,Yemen,Ibb,19.139721
+2018,4,Yemen,Lahj,14.0465
+2018,4,Yemen,Marib,21.598089
+2018,4,Yemen,Raymah,24.35169
+2018,4,Yemen,Sa'dah,18.751181
+2018,4,Yemen,Sana'a,23.440359
+2018,4,Yemen,Sana'a City,24.79636
+2018,4,Yemen,Shabwah,13.72537
+2018,4,Yemen,Taizz,18.73802
+2018,3,Yemen,Aden,17.669399
+2018,3,Yemen,Aljanad,19.610399
+2018,3,Yemen,Azal,23.2036
+2018,3,Yemen,Hadramaut,12.07027
+2018,3,Yemen,Sana'a City,28.045851
+2018,3,Yemen,Sheba,17.96788
+2018,3,Yemen,Tahamh,23.75367
+2018,4,Yemen,Aden,16.3279
+2018,4,Yemen,Aljanad,18.936131
+2018,4,Yemen,Azal,21.81189
+2018,4,Yemen,Hadramaut,13.82243
+2018,4,Yemen,Sana'a City,24.79636
+2018,4,Yemen,Sheba,20.41917
+2018,4,Yemen,Tahamh,23.012381
+2018,5,Yemen,Yemen,19.45787
+2018,5,Yemen,Abyan,15.70299
+2018,5,Yemen,Ad Dali,15.20394
+2018,5,Yemen,Aden,13.87265
+2018,5,Yemen,Al Bayda,18.658939
+2018,5,Yemen,Al Hudaydah,19.93088
+2018,5,Yemen,Al Jawf,19.71665
+2018,5,Yemen,Al Maharah,8.3993998
+2018,5,Yemen,Al Mahwit,22.630131
+2018,5,Yemen,Amran,20.38456
+2018,5,Yemen,Dhamar,23.48525
+2018,5,Yemen,Hadramaut,11.23166
+2018,5,Yemen,Hajjah,25.23177
+2018,5,Yemen,Ibb,18.49951
+2018,5,Yemen,Lahj,13.04029
+2018,5,Yemen,Marib,17.012621
+2018,5,Yemen,Raymah,22.30398
+2018,5,Yemen,Sa'dah,17.59734
+2018,5,Yemen,Sana'a,22.094469
+2018,5,Yemen,Sana'a City,21.735729
+2018,5,Yemen,Shabwah,12.14552
+2018,5,Yemen,Taizz,19.235861
+2018,5,Yemen,Aden,14.2129
+2018,5,Yemen,Aljanad,18.8776
+2018,5,Yemen,Azal,21.649309
+2018,5,Yemen,Hadramaut,11.31929
+2018,5,Yemen,Sana'a City,21.735729
+2018,5,Yemen,Sheba,18.64217
+2018,5,Yemen,Tahamh,21.98704
+2018,6,Yemen,Yemen,18.11322
+2018,7,Yemen,Yemen,19.79624
+2018,8,Yemen,Yemen,20.38715
+2018,7,Yemen,Abyan,14.76128
+2018,7,Yemen,Ad Dali,17.57044
+2018,7,Yemen,Aden,15.86473
+2018,7,Yemen,Al Bayda,17.776409
+2018,7,Yemen,Al Hudaydah,19.234699
+2018,7,Yemen,Al Jawf,19.066441
+2018,7,Yemen,Al Maharah,7.35742
+2018,7,Yemen,Al Mahwit,20.630091
+2018,7,Yemen,Amran,23.586599
+2018,7,Yemen,Dhamar,24.74411
+2018,7,Yemen,Hadramaut,14.55657
+2018,7,Yemen,Hajjah,23.303789
+2018,7,Yemen,Ibb,19.50848
+2018,7,Yemen,Lahj,13.7589
+2018,7,Yemen,Marib,19.81838
+2018,7,Yemen,Raymah,20.855261
+2018,7,Yemen,Sa'dah,19.562309
+2018,7,Yemen,Sana'a,22.260349
+2018,7,Yemen,Sana'a City,23.89221
+2018,7,Yemen,Shabwah,11.69803
+2018,7,Yemen,Taizz,17.309469
+2018,8,Yemen,Abyan,17.252991
+2018,8,Yemen,Ad Dali,19.782221
+2018,8,Yemen,Aden,12.30108
+2018,8,Yemen,Al Bayda,16.194651
+2018,8,Yemen,Al Hudaydah,20.108061
+2018,8,Yemen,Al Jawf,22.291059
+2018,8,Yemen,Al Maharah,10.4408
+2018,8,Yemen,Al Mahwit,22.599091
+2018,8,Yemen,Amran,19.4275
+2018,8,Yemen,Dhamar,22.51742
+2018,8,Yemen,Hadramaut,21.96347
+2018,8,Yemen,Hajjah,24.65259
+2018,8,Yemen,Ibb,21.35652
+2018,8,Yemen,Lahj,16.071541
+2018,8,Yemen,Marib,18.69351
+2018,8,Yemen,Raymah,21.74506
+2018,8,Yemen,Sa'dah,17.943291
+2018,8,Yemen,Sana'a,20.81287
+2018,8,Yemen,Sana'a City,22.54178
+2018,8,Yemen,Shabwah,15.6421
+2018,8,Yemen,Taizz,19.981489
+2018,9,Yemen,Yemen,21.856371
+2018,9,Yemen,Abyan,18.60651
+2018,9,Yemen,Ad Dali,19.798731
+2018,9,Yemen,Aden,16.245831
+2018,9,Yemen,Al Bayda,20.587811
+2018,9,Yemen,Al Hudaydah,21.401091
+2018,9,Yemen,Al Jawf,25.825251
+2018,9,Yemen,Al Mahwit,23.806061
+2018,9,Yemen,Amran,21.12698
+2018,9,Yemen,Dhamar,22.73831
+2018,9,Yemen,Hadramaut,20.366819
+2018,9,Yemen,Hajjah,25.897961
+2018,9,Yemen,Ibb,23.20356
+2018,9,Yemen,Lahj,18.46981
+2018,9,Yemen,Marib,18.10166
+2018,9,Yemen,Raymah,19.64926
+2018,9,Yemen,Sa'dah,17.688801
+2018,9,Yemen,Sana'a,23.567801
+2018,9,Yemen,Sana'a City,25.561041
+2018,9,Yemen,Shabwah,14.96393
+2018,9,Yemen,Taizz,21.737551
+2018,10,Yemen,Yemen,23.717621
+2018,10,Yemen,Abyan,17.810659
+2018,10,Yemen,Ad Dali,21.980391
+2018,10,Yemen,Aden,18.994011
+2018,10,Yemen,Al Bayda,21.699631
+2018,10,Yemen,Al Hudaydah,21.76034
+2018,10,Yemen,Al Jawf,25.86969
+2018,10,Yemen,Al Maharah,17.530979
+2018,10,Yemen,Al Mahwit,29.222759
+2018,10,Yemen,Amran,26.804199
+2018,10,Yemen,Dhamar,25.564409
+2018,10,Yemen,Hadramaut,21.059891
+2018,10,Yemen,Hajjah,27.19025
+2018,10,Yemen,Ibb,24.456301
+2018,10,Yemen,Lahj,19.87929
+2018,10,Yemen,Marib,20.44743
+2018,10,Yemen,Raymah,28.409
+2018,10,Yemen,Sa'dah,22.910669
+2018,10,Yemen,Sana'a,25.44957
+2018,10,Yemen,Sana'a City,24.64591
+2018,10,Yemen,Shabwah,16.767019
+2018,10,Yemen,Taizz,24.030029
+2018,11,Yemen,Yemen,21.310511
+2018,11,Yemen,Abyan,18.95459
+2018,11,Yemen,Ad Dali,19.817659
+2018,11,Yemen,Aden,16.018499
+2018,11,Yemen,Al Bayda,23.250521
+2018,11,Yemen,Al Hudaydah,21.078859
+2018,11,Yemen,Al Jawf,18.770639
+2018,11,Yemen,Al Maharah,14.12853
+2018,11,Yemen,Al Mahwit,21.994989
+2018,11,Yemen,Amran,21.40275
+2018,11,Yemen,Dhamar,22.585211
+2018,11,Yemen,Hadramaut,15.55199
+2018,11,Yemen,Hajjah,25.376591
+2018,11,Yemen,Ibb,22.23978
+2018,11,Yemen,Lahj,17.570881
+2018,11,Yemen,Marib,20.867571
+2018,11,Yemen,Raymah,24.652069
+2018,11,Yemen,Sa'dah,19.5979
+2018,11,Yemen,Sana'a,23.557831
+2018,11,Yemen,Sana'a City,24.31098
+2018,11,Yemen,Shabwah,14.63938
+2018,11,Yemen,Taizz,19.81728
+2018,12,Yemen,Yemen,21.17091
+2018,12,Yemen,Abyan,15.21837
+2018,12,Yemen,Ad Dali,19.499861
+2018,12,Yemen,Aden,15.39949
+2018,12,Yemen,Al Bayda,19.554569
+2018,12,Yemen,Al Hudaydah,21.72702
+2018,12,Yemen,Al Jawf,21.344749
+2018,12,Yemen,Al Maharah,10.37065
+2018,12,Yemen,Al Mahwit,24.78854
+2018,12,Yemen,Amran,21.344049
+2018,12,Yemen,Dhamar,23.298229
+2018,12,Yemen,Hadramaut,17.259781
+2018,12,Yemen,Hajjah,24.60107
+2018,12,Yemen,Ibb,22.349369
+2018,12,Yemen,Lahj,14.80339
+2018,12,Yemen,Marib,21.538731
+2018,12,Yemen,Raymah,22.575741
+2018,12,Yemen,Sa'dah,18.899879
+2018,12,Yemen,Sana'a,22.68767
+2018,12,Yemen,Sana'a City,23.5128
+2018,12,Yemen,Shabwah,14.14228
+2018,12,Yemen,Taizz,20.72727
+2019,1,Yemen,Yemen,20.642241
+2019,1,Yemen,Abyan,15.88065
+2019,1,Yemen,Ad Dali,21.094721
+2019,1,Yemen,Aden,18.49021
+2019,1,Yemen,Al Bayda,21.21821
+2019,1,Yemen,Al Hudaydah,21.113501
+2019,1,Yemen,Al Jawf,21.514759
+2019,1,Yemen,Al Maharah,11.35725
+2019,1,Yemen,Al Mahwit,21.49688
+2019,1,Yemen,Amran,17.881229
+2019,1,Yemen,Dhamar,19.27232
+2019,1,Yemen,Hadramaut,14.52465
+2019,1,Yemen,Hajjah,25.29056
+2019,1,Yemen,Ibb,19.50285
+2019,1,Yemen,Lahj,18.59771
+2019,1,Yemen,Marib,23.618759
+2019,1,Yemen,Raymah,22.700109
+2019,1,Yemen,Sa'dah,22.99444
+2019,1,Yemen,Sana'a,23.52313
+2019,1,Yemen,Sana'a City,24.10836
+2019,1,Yemen,Shabwah,16.08444
+2019,1,Yemen,Taizz,18.772381
+2019,2,Yemen,Yemen,20.270849
+2019,3,Yemen,Yemen,20.1859
+2019,3,Yemen,Abyan,15.62589
+2019,3,Yemen,Ad Dali,18.80736
+2019,3,Yemen,Aden,16.08712
+2019,3,Yemen,Al Bayda,20.561741
+2019,3,Yemen,Al Hudaydah,20.085369
+2019,3,Yemen,Al Jawf,18.29381
+2019,3,Yemen,Al Maharah,10.54112
+2019,3,Yemen,Al Mahwit,23.81778
+2019,3,Yemen,Amran,22.00939
+2019,3,Yemen,Dhamar,20.95723
+2019,3,Yemen,Hadramaut,13.63983
+2019,3,Yemen,Hajjah,23.09816
+2019,3,Yemen,Ibb,22.17581
+2019,3,Yemen,Lahj,12.64221
+2019,3,Yemen,Marib,22.635679
+2019,3,Yemen,Raymah,23.326031
+2019,3,Yemen,Sa'dah,17.95392
+2019,3,Yemen,Sana'a,21.72607
+2019,3,Yemen,Sana'a City,22.195829
+2019,3,Yemen,Shabwah,16.009979
+2019,3,Yemen,Taizz,20.3834
+2019,4,Yemen,Yemen,21.55434
+2019,4,Yemen,Abyan,15.18881
+2019,4,Yemen,Ad Dali,19.14905
+2019,4,Yemen,Aden,12.34085
+2019,4,Yemen,Al Bayda,21.340851
+2019,4,Yemen,Al Hudaydah,24.65819
+2019,4,Yemen,Al Jawf,21.337811
+2019,4,Yemen,Al Maharah,12.34159
+2019,4,Yemen,Al Mahwit,21.047421
+2019,4,Yemen,Amran,20.92494
+2019,4,Yemen,Dhamar,23.19664
+2019,4,Yemen,Hadramaut,13.54477
+2019,4,Yemen,Hajjah,24.966709
+2019,4,Yemen,Ibb,22.21904
+2019,4,Yemen,Lahj,12.80353
+2019,4,Yemen,Marib,22.84203
+2019,4,Yemen,Raymah,22.51568
+2019,4,Yemen,Sa'dah,19.29381
+2019,4,Yemen,Sana'a,23.405251
+2019,4,Yemen,Sana'a City,23.60471
+2019,4,Yemen,Shabwah,14.58071
+2019,4,Yemen,Taizz,19.68528
+2019,5,Yemen,Yemen,20.51247
+2019,6,Yemen,,19.57177
+2019,6,Yemen,Yemen,19.57177
+2019,6,Yemen,Yemen,19.57177
+2019,6,Yemen,Abyan,12.17363
+2019,6,Yemen,Ad Dali,21.077641
+2019,6,Yemen,Aden,16.45384
+2019,6,Yemen,Al Bayda,17.775169
+2019,6,Yemen,Al Hudaydah,17.85804
+2019,6,Yemen,Al Jawf,20.791401
+2019,6,Yemen,Al Maharah,11.38571
+2019,6,Yemen,Al Mahwit,22.68401
+2019,6,Yemen,Amran,23.053619
+2019,6,Yemen,Dhamar,21.518471
+2019,6,Yemen,Hadramaut,14.60259
+2019,6,Yemen,Hajjah,23.545601
+2019,6,Yemen,Ibb,21.00009
+2019,6,Yemen,Lahj,13.26246
+2019,6,Yemen,Marib,21.255699
+2019,6,Yemen,Raymah,22.870239
+2019,6,Yemen,Sa'dah,17.7579
+2019,6,Yemen,Sana'a,20.705111
+2019,6,Yemen,Sana'a City,20.26569
+2019,6,Yemen,Shabwah,17.137119
+2019,6,Yemen,Taizz,19.48415
+2019,7,Yemen,Yemen,19.94306
+2019,7,Yemen,,19.94306
+2019,7,Yemen,Abyan,12.35318
+2019,7,Yemen,Ad Dali,20.27984
+2019,7,Yemen,Aden,13.33997
+2019,7,Yemen,Al Bayda,20.330879
+2019,7,Yemen,Al Hudaydah,18.68811
+2019,7,Yemen,Al Jawf,24.569201
+2019,7,Yemen,Al Maharah,10.01597
+2019,7,Yemen,Al Mahwit,22.402519
+2019,7,Yemen,Amran,22.16087
+2019,7,Yemen,Dhamar,23.14113
+2019,7,Yemen,Hadramaut,14.32763
+2019,7,Yemen,Hajjah,23.017509
+2019,7,Yemen,Ibb,22.124081
+2019,7,Yemen,Lahj,14.11307
+2019,7,Yemen,Marib,21.02746
+2019,7,Yemen,Raymah,19.026239
+2019,7,Yemen,Sa'dah,15.69943
+2019,7,Yemen,Sana'a,23.069189
+2019,7,Yemen,Sana'a City,22.09934
+2019,7,Yemen,Shabwah,18.5994
+2019,7,Yemen,Taizz,18.654381
+2019,8,Yemen,Yemen,19.398821
+2019,8,Yemen,Abyan,15.25257
+2019,8,Yemen,Ad Dali,19.049339
+2019,8,Yemen,Aden,15.53078
+2019,8,Yemen,Al Bayda,19.69665
+2019,8,Yemen,Al Hudaydah,21.23855
+2019,8,Yemen,Al Jawf,21.423731
+2019,8,Yemen,Al Maharah,13.44932
+2019,8,Yemen,Al Mahwit,22.256399
+2019,8,Yemen,Amran,22.00202
+2019,8,Yemen,Dhamar,21.00831
+2019,8,Yemen,Hadramaut,11.56023
+2019,8,Yemen,Hajjah,24.50281
+2019,8,Yemen,Ibb,18.758539
+2019,8,Yemen,Lahj,16.03878
+2019,8,Yemen,Marib,17.00061
+2019,8,Yemen,Raymah,19.37821
+2019,8,Yemen,Sa'dah,17.0378
+2019,8,Yemen,Sana'a,23.8013
+2019,8,Yemen,Sana'a City,17.67075
+2019,8,Yemen,Shabwah,13.60297
+2019,8,Yemen,Taizz,18.5175
+2019,9,Yemen,Yemen,20.92552
+2019,9,Yemen,Abyan,14.49458
+2019,9,Yemen,Ad Dali,20.80353
+2019,9,Yemen,Aden,15.52948
+2019,9,Yemen,Al Bayda,19.63542
+2019,9,Yemen,Al Hudaydah,23.697809
+2019,9,Yemen,Al Jawf,21.812469
+2019,9,Yemen,Al Maharah,12.24094
+2019,9,Yemen,Al Mahwit,21.459869
+2019,9,Yemen,Amran,21.147421
+2019,9,Yemen,Dhamar,23.119631
+2019,9,Yemen,Hadramaut,15.51733
+2019,9,Yemen,Hajjah,22.32464
+2019,9,Yemen,Ibb,21.48934
+2019,9,Yemen,Lahj,13.89623
+2019,9,Yemen,Marib,19.90774
+2019,9,Yemen,Raymah,21.013519
+2019,9,Yemen,Sa'dah,19.08555
+2019,9,Yemen,Sana'a,22.238911
+2019,9,Yemen,Sana'a City,24.224461
+2019,9,Yemen,Shabwah,17.163349
+2019,9,Yemen,Taizz,20.898861
+2018,2,Yemen,Yemen,23.038059
+2020,3,Yemen,,19.74728
+2020,3,Yemen,Abyan,12.84496
+2020,3,Yemen,Ad Dali,16.91188
+2020,3,Yemen,Aden,14.14155
+2020,3,Yemen,Al Bayda,19.023149
+2020,3,Yemen,Al Hudaydah,19
+2020,3,Yemen,Al Jawf,20.419609
+2020,3,Yemen,Al Maharah,14.751
+2020,3,Yemen,Al Mahwit,18.372549
+2020,3,Yemen,Amran,21.19355
+2020,3,Yemen,Dhamar,20.549549
+2020,3,Yemen,Hadramaut,13.56481
+2020,3,Yemen,Hajjah,22.967211
+2020,3,Yemen,Ibb,20.19178
+2020,3,Yemen,Lahj,15.28095
+2020,3,Yemen,Marib,16.91667
+2020,3,Yemen,Raymah,21.25926
+2020,3,Yemen,Sa'dah,15.70423
+2020,3,Yemen,Sana'a,21.450001
+2020,3,Yemen,Sana'a City,21.961109
+2020,3,Yemen,Shabwah,14.95122
+2020,3,Yemen,Taizz,19.027781
+2020,3,Yemen,Yemen,19.74728
+2020,4,Yemen,Yemen,19.692801
+2020,4,Yemen,Abyan,15.05882
+2020,4,Yemen,Ad Dali,19.04167
+2020,4,Yemen,Aden,15.85
+2020,4,Yemen,Al Bayda,20.414289
+2020,4,Yemen,Al Hudaydah,20.719049
+2020,4,Yemen,Al Jawf,22.866671
+2020,4,Yemen,Al Maharah,14.60556
+2020,4,Yemen,Al Mahwit,21.540001
+2020,4,Yemen,Amran,19.433331
+2020,4,Yemen,Dhamar,21.39048
+2020,4,Yemen,Hadramaut,15.00476
+2020,4,Yemen,Hajjah,21.15
+2020,4,Yemen,Ibb,19.214291
+2020,4,Yemen,Lahj,15.6381
+2020,4,Yemen,Marib,16.62381
+2020,4,Yemen,Raymah,21.595831
+2020,4,Yemen,Sa'dah,18.561899
+2020,4,Yemen,Sana'a,20
+2020,4,Yemen,Sana'a City,20.67598
+2020,4,Yemen,Shabwah,16.695829
+2020,4,Yemen,Taizz,18.75556
+2020,5,Yemen,Yemen,19.005989
+2020,5,Yemen,Abyan,16.60417
+2020,5,Yemen,Ad Dali,17.470831
+2020,5,Yemen,Aden,17.122219
+2020,5,Yemen,Al Bayda,17.52857
+2020,5,Yemen,Al Hudaydah,18.1381
+2020,5,Yemen,Al Jawf,22.67083
+2020,5,Yemen,Al Maharah,13.77222
+2020,5,Yemen,Al Mahwit,17.47333
+2020,5,Yemen,Amran,20.727779
+2020,5,Yemen,Dhamar,19.98571
+2020,5,Yemen,Hadramaut,13.75714
+2020,5,Yemen,Hajjah,23.788891
+2020,5,Yemen,Ibb,18.62381
+2020,5,Yemen,Lahj,14.99048
+2020,5,Yemen,Marib,14.97143
+2020,5,Yemen,Raymah,19.35
+2020,5,Yemen,Sa'dah,16.585711
+2020,5,Yemen,Sana'a,20.444441
+2020,5,Yemen,Sana'a City,20.18889
+2020,5,Yemen,Shabwah,15.83333
+2020,5,Yemen,Taizz,18.111111
