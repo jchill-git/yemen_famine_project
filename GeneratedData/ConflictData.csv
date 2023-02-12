@@ -1,0 +1,360 @@
+year	month	governorate	event_num	death_est
+2018	1	Aden	1	38
+2018	1	Al Bayda	1	4
+2018	1	Al Dhale'e	5	122
+2018	1	Al Hudaydah	5	111
+2018	1	Ibb	1	1
+2018	1	Marib	1	3
+2018	1	Sana'a	8	28
+2018	1	Shabwah	2	13
+2018	1	NA	14	119
+2018	2	Aden	1	14
+2018	2	Al Bayda	3	37
+2018	2	Al Dhale'e	5	11
+2018	2	Al Hudaydah	3	102
+2018	2	Amanat Al Asimah	1	8
+2018	2	Amran	1	6
+2018	2	Ibb	1	5
+2018	2	Marib	1	5
+2018	2	Sana'a	4	12
+2018	2	NA	8	59
+2018	3	Aden	3	11
+2018	3	Al Bayda	3	26
+2018	3	Al Dhale'e	6	24
+2018	3	Al Hudaydah	2	6
+2018	3	Al Jawf	1	1
+2018	3	Amanat Al Asimah	1	6
+2018	3	Marib	2	10
+2018	3	Sana'a	3	22
+2018	3	NA	7	46
+2018	4	Aden	1	2
+2018	4	Al Dhale'e	6	68
+2018	4	Al Hudaydah	5	27
+2018	4	Amanat Al Asimah	1	51
+2018	4	Ibb	1	1
+2018	4	Lahj	1	5
+2018	4	Sa'ada	3	37
+2018	4	Sana'a	4	9
+2018	4	Shabwah	1	1
+2018	4	NA	5	45
+2018	5	Al Dhale'e	2	116
+2018	5	Al Hudaydah	5	181
+2018	5	Amanat Al Asimah	2	10
+2018	5	Lahj	1	1
+2018	5	Marib	1	5
+2018	5	Sana'a	3	4
+2018	5	Shabwah	1	3
+2018	5	NA	10	157
+2018	6	Al Hudaydah	23	678
+2018	6	Amran	1	8
+2018	6	Ibb	1	3
+2018	6	Lahj	1	1
+2018	6	Shabwah	1	1
+2018	6	NA	7	26
+2018	7	Al Dhale'e	2	11
+2018	7	Al Hudaydah	16	326
+2018	7	Al Jawf	1	5
+2018	7	Marib	3	9
+2018	7	Sa'ada	1	1
+2018	7	Sana'a	4	20
+2018	7	Shabwah	3	16
+2018	7	NA	4	162
+2018	8	Aden	2	2
+2018	8	Al Hudaydah	4	178
+2018	8	Al Jawf	1	10
+2018	8	Marib	3	3
+2018	8	Sa'ada	5	73
+2018	8	Sana'a	4	41
+2018	8	NA	6	70
+2018	9	Al Hudaydah	13	271
+2018	9	Sana'a	2	35
+2018	9	Shabwah	2	3
+2018	9	NA	5	10
+2018	10	Al Hudaydah	16	386
+2018	10	Amanat Al Asimah	1	1
+2018	10	Sa'ada	1	2
+2018	10	Sana'a	2	2
+2018	10	NA	3	3
+2018	11	Aden	1	1
+2018	11	Al Bayda	1	2
+2018	11	Al Dhale'e	1	1
+2018	11	Al Hudaydah	25	690
+2018	11	Sana'a	3	30
+2018	11	NA	2	7
+2018	12	Al Hudaydah	7	65
+2018	12	Marib	2	97
+2018	12	Sana'a	4	6
+2018	12	NA	6	11
+2019	1	Al Dhale'e	5	18
+2019	1	Al Hudaydah	3	3
+2019	1	Amanat Al Asimah	1	2
+2019	1	Lahj	1	7
+2019	1	Marib	2	3
+2019	1	Sa'ada	2	11
+2019	1	Sana'a	3	3
+2019	1	Shabwah	1	7
+2019	1	NA	1	8
+2019	2	Al Bayda	2	2
+2019	2	Al Dhale'e	4	9
+2019	2	Al Hudaydah	1	8
+2019	2	Sa'ada	4	29
+2019	2	Sana'a	4	10
+2019	2	NA	6	35
+2019	3	Al Hudaydah	5	15
+2019	3	Al Jawf	1	8
+2019	3	Sa'ada	4	257
+2019	3	Sana'a	4	20
+2019	3	NA	2	10
+2019	4	Al Bayda	1	4
+2019	4	Al Dhale'e	4	19
+2019	4	Al Hudaydah	1	3
+2019	4	Amanat Al Asimah	1	14
+2019	4	Marib	1	2
+2019	4	NA	5	218
+2019	5	Al Dhale'e	1	12
+2019	5	Al Hudaydah	1	3
+2019	5	Amanat Al Asimah	1	6
+2019	5	Marib	1	4
+2019	5	Sa'ada	1	1
+2019	5	Sana'a	5	13
+2019	5	NA	8	243
+2019	6	Al Bayda	1	7
+2019	6	Al Dhale'e	3	11
+2019	6	Sa'ada	2	2
+2019	6	Sana'a	3	14
+2019	6	NA	3	4
+2019	7	Al Dhale'e	1	1
+2019	7	Al Hudaydah	2	13
+2019	7	Al Jawf	1	1
+2019	7	Dhamar	1	1
+2019	7	Sa'ada	1	3
+2019	7	Sana'a	1	1
+2019	7	NA	5	61
+2019	8	Aden	11	101
+2019	8	Al Dhale'e	1	2
+2019	8	Al Hudaydah	2	5
+2019	8	Sa'ada	1	12
+2019	8	Sana'a	4	22
+2019	8	Shabwah	2	11
+2019	8	NA	8	274
+2019	9	Al Dhale'e	2	4
+2019	9	Al Hudaydah	1	9
+2019	9	Amran	1	5
+2019	9	Dhamar	1	156
+2019	9	Marib	1	1
+2019	9	Sa'ada	2	4
+2019	9	Sana'a	3	11
+2019	9	NA	3	33
+2019	10	Al Dhale'e	2	2
+2019	10	Al Hudaydah	2	2
+2019	10	Marib	1	2
+2019	10	Sana'a	1	1
+2019	10	NA	5	122
+2019	11	Al Dhale'e	2	14
+2019	11	Al Hudaydah	5	39
+2019	11	Marib	2	9
+2019	11	NA	6	30
+2019	12	Aden	1	1
+2019	12	Al Hudaydah	1	0
+2019	12	Al Jawf	2	6
+2019	12	Ibb	1	1
+2019	12	Sana'a	2	3
+2019	12	NA	8	36
+2020	1	Al Dhale'e	4	7
+2020	1	Al Hudaydah	1	1
+2020	1	Amanat Al Asimah	2	13
+2020	1	Marib	11	208
+2020	1	Sana'a	3	15
+2020	1	Shabwah	1	1
+2020	1	NA	8	70
+2020	2	Aden	1	1
+2020	2	Al Dhale'e	3	20
+2020	2	Al Hudaydah	12	36
+2020	2	Al Jawf	6	137
+2020	2	Lahj	1	2
+2020	2	Marib	4	46
+2020	2	Sa'ada	1	3
+2020	2	Sana'a	5	14
+2020	2	NA	8	13
+2020	3	Al Dhale'e	9	15
+2020	3	Al Hudaydah	11	33
+2020	3	Al Jawf	7	67
+2020	3	Amanat Al Asimah	1	1
+2020	3	Marib	5	67
+2020	3	Sa'ada	2	4
+2020	3	Sana'a	6	14
+2020	3	NA	1	1
+2020	4	Al Dhale'e	6	20
+2020	4	Al Hudaydah	7	12
+2020	4	Al Jawf	1	1
+2020	4	Marib	3	27
+2020	4	Sana'a	7	52
+2020	4	Shabwah	1	6
+2020	4	NA	11	478
+2020	5	Al Dhale'e	2	2
+2020	5	Al Hudaydah	1	4
+2020	5	Al Jawf	4	8
+2020	5	Dhamar	1	1
+2020	5	Marib	5	19
+2020	5	Sa'ada	1	4
+2020	5	Sana'a	7	27
+2020	5	Socotra	1	1
+2020	5	NA	13	87
+2020	6	Al Dhale'e	2	2
+2020	6	Al Hudaydah	9	20
+2020	6	Al Jawf	6	8
+2020	6	Marib	2	6
+2020	6	Sana'a	5	13
+2020	6	NA	15	175
+2020	7	Al Dhale'e	1	1
+2020	7	Al Hudaydah	4	6
+2020	7	Al Jawf	2	26
+2020	7	Amran	1	3
+2020	7	Lahj	1	2
+2020	7	Marib	5	10
+2020	7	Sa'ada	1	9
+2020	7	Sana'a	9	57
+2020	7	NA	14	29
+2020	8	Al Dhale'e	5	6
+2020	8	Al Hudaydah	7	14
+2020	8	Al Jawf	8	52
+2020	8	Marib	5	21
+2020	8	Sana'a	15	101
+2020	8	NA	8	15
+2020	9	Al Dhale'e	5	11
+2020	9	Al Hudaydah	4	7
+2020	9	Al Jawf	6	53
+2020	9	Marib	7	114
+2020	9	Sana'a	7	11
+2020	9	Shabwah	1	4
+2020	9	NA	8	11
+2020	10	Al Dhale'e	9	28
+2020	10	Al Hudaydah	9	61
+2020	10	Al Jawf	1	1
+2020	10	Al Maharah	1	3
+2020	10	Marib	7	32
+2020	10	NA	16	35
+2020	11	Al Dhale'e	11	13
+2020	11	Al Hudaydah	5	22
+2020	11	Al Jawf	6	5
+2020	11	Amanat Al Asimah	1	1
+2020	11	Marib	5	3
+2020	11	Sana'a	1	2
+2020	11	NA	13	119
+2020	12	Aden	1	27
+2020	12	Al Dhale'e	10	15
+2020	12	Al Hudaydah	1	10
+2020	12	Al Jawf	1	1
+2020	12	Ibb	1	1
+2020	12	Lahj	1	1
+2020	12	Marib	2	2
+2020	12	Sana'a	1	1
+2020	12	NA	10	24
+2021	1	Aden	1	0
+2021	1	Al Dhale'e	8	15
+2021	1	Al Hudaydah	15	175
+2021	1	Al Jawf	3	10
+2021	1	Dhamar	1	1
+2021	1	Lahj	1	1
+2021	1	Marib	11	76
+2021	1	Sana'a	5	11
+2021	1	NA	7	9
+2021	2	Al Dhale'e	5	5
+2021	2	Al Hudaydah	4	17
+2021	2	Al Jawf	2	3
+2021	2	Amanat Al Asimah	1	5
+2021	2	Ibb	2	1
+2021	2	Marib	37	1410
+2021	2	Sa'ada	1	1
+2021	2	Sana'a	1	1
+2021	2	NA	11	11
+2021	3	Al Dhale'e	32	224
+2021	3	Al Hudaydah	8	10
+2021	3	Al Jawf	2	6
+2021	3	Amanat Al Asimah	1	0
+2021	3	Lahj	1	1
+2021	3	Marib	20	1183
+2021	3	Sa'ada	4	55
+2021	3	Sana'a	3	4
+2021	3	Shabwah	1	1
+2021	3	NA	4	17
+2021	4	Al Dhale'e	8	45
+2021	4	Al Hudaydah	2	4
+2021	4	Amanat Al Asimah	1	2
+2021	4	Marib	29	1455
+2021	4	Sa'ada	1	6
+2021	4	Sana'a	1	2
+2021	4	NA	12	16
+2021	5	Al Dhale'e	4	18
+2021	5	Al Hudaydah	5	21
+2021	5	Al Jawf	1	4
+2021	5	Marib	11	127
+2021	5	Sana'a	2	1
+2021	5	NA	18	71
+2021	6	Al Bayda	1	4
+2021	6	Al Dhale'e	1	0
+2021	6	Al Hudaydah	3	5
+2021	6	Al Jawf	2	18
+2021	6	Amanat Al Asimah	1	3
+2021	6	Lahj	1	1
+2021	6	Marib	26	1898
+2021	6	Sa'ada	1	1
+2021	6	Sana'a	4	7
+2021	6	Shabwah	1	2
+2021	6	NA	16	31
+2021	7	Al Bayda	2	2
+2021	7	Al Dhale'e	5	7
+2021	7	Al Hudaydah	1	5
+2021	7	Al Jawf	3	27
+2021	7	Lahj	1	3
+2021	7	Marib	12	1569
+2021	7	Sana'a	8	373
+2021	7	Shabwah	2	11
+2021	7	NA	9	21
+2021	8	Al Dhale'e	4	9
+2021	8	Al Hudaydah	6	16
+2021	8	Al Jawf	5	39
+2021	8	Amanat Al Asimah	1	2
+2021	8	Ibb	1	0
+2021	8	Lahj	2	44
+2021	8	Marib	27	1812
+2021	8	Sa'ada	3	7
+2021	8	NA	18	22
+2021	9	Al Dhale'e	2	3
+2021	9	Al Hudaydah	2	7
+2021	9	Al Jawf	1	1
+2021	9	Amanat Al Asimah	1	9
+2021	9	Lahj	1	1
+2021	9	Marib	31	2265
+2021	9	Sa'ada	1	12
+2021	9	Sana'a	8	122
+2021	9	Shabwah	6	90
+2021	9	NA	11	14
+2021	10	Aden	2	15
+2021	10	Al Bayda	1	0
+2021	10	Al Dhale'e	9	12
+2021	10	Al Hudaydah	2	4
+2021	10	Al Jawf	1	1
+2021	10	Amanat Al Asimah	1	1
+2021	10	Marib	55	4083
+2021	10	Sa'ada	1	1
+2021	10	Sana'a	3	5
+2021	10	Shabwah	4	220
+2021	10	NA	20	33
+2021	11	Aden	1	1
+2021	11	Al Dhale'e	8	53
+2021	11	Al Hudaydah	20	128
+2021	11	Al Jawf	5	274
+2021	11	Amanat Al Asimah	1	4
+2021	11	Marib	33	3452
+2021	11	Sana'a	3	146
+2021	11	Shabwah	1	3
+2021	11	NA	20	27
+2021	12	Al Dhale'e	15	63
+2021	12	Al Hudaydah	10	14
+2021	12	Al Jawf	6	102
+2021	12	Al Mahwit	1	3
+2021	12	Marib	23	1049
+2021	12	Sa'ada	2	17
+2021	12	Shabwah	5	74
+2021	12	NA	13	20
