@@ -1,0 +1,222 @@
+---
+title: "Hackathon--Famine Fighter"
+author: "JW"
+date: "2023-02-12"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+here::i_am("HI_JW.Rmd")
+
+library(here)
+library(readxl)
+library(readr)
+library(tidyr)
+library(arsenal)
+library(dplyr)
+```
+
+## Conflict data
+
+```{r}
+df.conflict <- read_csv(here("SecondaryData/gedevents-2023-02-11.csv"))
+
+skimr::skim(df.conflict)
+```
+
+Geo-location data: latitude, longitude, adm_1 (governorate), adm_2 (district), where_coordinates
+
+Key information: best_est (death estimate), high_est, low_est (CIs)
+
+Time variables: date_prec (table this), date_start, date_end
+
+Removable variables:
+- 1 unique value: code_status, country, region, country_id
+
+
+```{r}
+df.conf2 <- df.conflict %>%
+  select(-code_status, -country, -region, -country_id) %>%
+  separate_wider_delim(date_start,"/", names = c("m_s", "day_s", "y_s"), cols_remove = F) %>%
+  separate_wider_delim(date_end,"/", names = c("m_e", "d_e", "y_e"), cols_remove = F) %>%
+  mutate(across(c(m_s:y_s, m_e:y_e), ~as.numeric(.x)))
+# as.Date.character(df.conflict$date_start, "%m/%d/%Y")                                               # covert to date line
+
+df.conf2.f <- df.conf2 %>% filter(y_s>=2018, y_s<=2021) %>%                                         # filter by year
+  mutate(Governorate = gsub(" governorate", "", adm_1),
+         samemonth = case_when(y_s == y_e&m_s == m_e ~ 1, TRUE ~ 0))
+
+# fuzzy matching governorate #----
+df.gov <- df.raw %>% select(Governorate) %>% distinct()
+df.conf.match <- df.conf2.f %>% select(Governorate) %>% distinct()
+
+match.gov <- fuzzyjoin::stringdist_join(df.gov, df.conf.match, by = "Governorate",
+                                        mode = "right",
+                ignore_case = T, method = "jw", max_dist = 0.25, distance_col = "dist")
+
+match.gov2 <- fuzzyjoin::stringdist_join(df.gov, df.conf.match, by = "Governorate",
+                                         mode = "left",
+                ignore_case = T, method = "jw", max_dist = 0.25, distance_col = "dist")
+
+# length(unique(match.gov$Governorate.y))  
+# length(unique(match.gov$Governorate.x))  
+
+# rownames(match.gov)[is.na(match.gov$Governorate.x)]
+match.gov$Governorate.x[c(4,8,9,11)] <- c("Al Dhale'e", "Al Bayda", "Sana'a", "Sa'ada")             # hard coding
+
+match.gov <-match.gov[-10,] %>%
+  rename(Governorate = Governorate.y, Governorate.map = Governorate.x) %>%
+  select(-dist)
+
+df.conf2.f <- left_join(df.conf2.f, match.gov, by = "Governorate")
+```
+
+summarize by year, month, governorate on event # and death.
+
+First, manual check for those not end in the same month.  
+Processing notes:  
+  1. In df.conf.diff1, there is one event starts on 2/29 and ends on 3/1. I count it as it happened in Feb.
+  2. Missing in governorate is probably because the conflict was on border. [[May need to check later.]]
+  3. For conflicts more than 1 month, the death estimates are divided by the duration and rounded to an integer. As a result, the total number may not adds up to the original estimate.
+
+```{r}
+df.conf.diff <- df.conf2.f %>% filter(samemonth == 0) %>% 
+  select(year, Governorate.map, m_s, day_s, y_e, m_e, d_e, best_est) %>%
+  mutate(monthdiff = m_e-m_s,
+         secondhalf.s.d = case_when(day_s>20 ~ 1, TRUE ~ 0),
+         fristhalf.e.d = case_when(d_e<10 ~ 1, TRUE ~ 0))
+
+## Just one month ##----
+df.conf.diff1 <- df.conf.diff %>% filter(monthdiff == 1) %>%
+  mutate(mo = case_when((30-day_s) < d_e ~ m_e,
+                        (30-day_s) > d_e ~ m_s,
+                        TRUE ~ m_s))                                                                # use mo for month of conflict
+# table(df.conf.diff1$mo)
+
+
+## more than two months ##----
+df.conf.diff2 <- df.conf.diff %>% filter(monthdiff == 2)
+df.conf.diff2 <- rbind(df.conf.diff2, df.conf.diff2[c(rep(1,2), rep(2, 2), rep(3, 2)),])            # duplicate rows
+df.conf.diff2 <- df.conf.diff2 %>% arrange(Governorate.map) %>% 
+  mutate(mo = c(2,3,4, 1,2,3, 6,7,8),                                                               # force month to change
+         death = round(best_est/3)) %>%                                                             # spread death count across
+  select(year, Governorate.map, m_s, day_s, y_e, m_e, d_e, best_est = death, monthdiff, secondhalf.s.d, fristhalf.e.d, mo)
+# best_est is calculated from original death estimates.
+
+
+## longer than two months ##----
+df.conf.diff.long <- df.conf.diff %>% filter(monthdiff !=1, monthdiff !=2)
+df.conf.diff.long <- rbind(df.conf.diff.long, df.conf.diff.long[c(rep(1,4), rep(2, 5), rep(3, 10)),])
+df.conf.diff.long <- df.conf.diff.long %>% arrange(m_s) %>% 
+  mutate(mo = c(seq(1,11,1), seq(2,6,1), seq(6,11,1)),
+         death = case_when(m_s == 1 ~ round(best_est/11),
+                           m_s == 2 ~ round(best_est/5),
+                           m_s == 6 ~ round(best_est/6))) %>%
+  select(year, Governorate.map, m_s, day_s, y_e, m_e, d_e, best_est = death, monthdiff, secondhalf.s.d, fristhalf.e.d, mo)
+# death count by month is slightly off the original number. Go with this for now.
+
+
+## merge all three ##----
+df.conf.diff.merge <- rbind(df.conf.diff1, df.conf.diff2)
+df.conf.diff.merge <- rbind(df.conf.diff.merge,df.conf.diff.long)
+df.conf.diff.merge <- df.conf.diff.merge %>% select(Governorate.map, year, mo, best_est)
+
+
+## subset conflicts in one month ##----
+df.conf.same <- df.conf2.f %>% filter(samemonth == 1) %>%
+  select(Governorate.map, year, mo = m_s, best_est)
+```
+
+```{r}
+df.conf.process <- rbind(df.conf.same, df.conf.diff.merge) %>%
+  group_by(year, mo, Governorate.map) %>%
+  summarise(event_num = n(),
+            death_est = sum(best_est)) %>%
+  rename(month = mo, governorate = Governorate.map)
+
+write_csv(df.conf.process, here("GeneratedData/ConflictCount.csv"))
+```
+
+
+## Special data
+
+Goal: Create connection files with Pcodes and all types of governorate and district
+
+#### governorate
+
+governorate + long + lat
+
+Issue: no long and lat.
+
+```{r}
+
+```
+
+
+
+#### districts
+
+districts + long + lat
+
+Issue: Cannot match for pcode
+
+```{r}
+df.dis <- read_csv(here("GeneratedData/district_coord.csv")) %>%
+  pivot_longer(1:332, names_to = "District", values_to = "location")
+
+df.dis <- separate(df.dis, location, c("latitude", "longitude"), sep = ", ")
+
+df.dis <- df.dis %>%
+  mutate(latitude = gsub("\\(", "", latitude),
+         longitude = gsub("\\)", "", longitude)) %>%
+  rename(district = District)
+
+df.temp <- left_join(df.dis, df.dist_names, by = "district")
+
+write_csv(df.dis, here("GeneratedData/district_coord_2cols.csv"))
+```
+
+
+#### gov_names
+
+pcode + goc_alias
+
+```{r}
+df.adm1 <- read_xlsx(here("ShapeFile/yem-administrative-division-names-and-p-codes.xlsx"), sheet = "admin1")
+
+df.gov.names <- df.adm1 %>%
+  select(admin1Name_en, governorate_pcode = admin1Pcode)
+```
+
+
+#### dist_names
+
+pcode + dist_alias
+
+```{r}
+df.adm2 <- read_xlsx(here("ShapeFile/yem-administrative-division-names-and-p-codes.xlsx"), sheet = "admin2")
+
+df.dist_names <- df.adm2 %>%
+  select(district = admin2Name_en, district_pcode = admin2Pcode) 
+
+match.dist <- fuzzyjoin::stringdist_join(df.dist_names, df.dis, by = "district",
+                                        mode = "right",
+                ignore_case = T, method = "jw", max_dist = 0.03, distance_col = "dist")
+
+match.dist2 <- fuzzyjoin::stringdist_join(df.dist_names, df.dis, by = "district",
+                                         mode = "left",
+                ignore_case = T, method = "jw", max_dist = 0.03, distance_col = "dist")
+
+match.dist
+match.dist2
+
+write_csv(match.dist, here("GeneratedData/match_dist_TOcor.csv"))
+write_csv(match.dist2, here("GeneratedData/match_dist_TOnames.csv"))
+```
+
+
+
+
+
